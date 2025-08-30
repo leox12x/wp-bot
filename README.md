@@ -1,4 +1,3 @@
-I can generate the README as a **complete Markdown file** for you. You can save it as `README.md` in your project. Here’s the full file content:
 
 ````markdown
 # 🤖 WhatsApp Bot V2
@@ -274,7 +273,6 @@ NODE_ENV=development npm start
 
 * **Documentation:** Check the deployment guide
 * **Issues:** Report on GitHub Issues
-* **Community:** Join our Discord/Telegram group
 
 ---
 
@@ -328,4 +326,5 @@ This project is licensed under the MIT License. While the code is open source, t
 ```
 
 ---
+
 
