@@ -1,0 +1,52 @@
+{
+  "name": "whatsapp-bot",
+  "version": "1.2.0",
+  "description": "Advanced WhatsApp Bot with modular architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "pm2:start": "pm2 start ecosystem.config.js",
+    "pm2:stop": "pm2 stop whatsapp-bot",
+    "pm2:restart": "pm2 restart whatsapp-bot",
+    "pm2:delete": "pm2 delete whatsapp-bot",
+    "logs": "pm2 logs whatsapp-bot",
+    "status": "pm2 status",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "bot",
+    "automation",
+    "web-dashboard",
+    "qr-display"
+  ],
+  "author": "Rahaman Leon <rahaman.leon@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "better-sqlite3": "^12.2.0",
+    "canvas": "^3.2.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.1.0",
+    "express": "^4.21.2",
+    "fast-cli": "^4.0.0",
+    "fs-extra": "^11.3.1",
+    "google-translate-api": "^2.3.0",
+    "googleapis": "^150.0.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.6.0",
+    "mongoose": "^7.5.0",
+    "node-cron": "^3.0.2",
+    "ora": "^8.2.0",
+    "puppeteer": "^24.17.1",
+    "qrcode": "^1.5.3",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.33.1",
+    "ytdl-core": "^4.11.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
